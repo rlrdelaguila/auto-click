@@ -96,8 +96,8 @@ type
   TMSLLHOOKSTRUCT = tagMSLLHOOKSTRUCT;
   PMSLLHOOKSTRUCT = ^TMSLLHOOKSTRUCT;
 
-{Funcao de um dll do windows}
-Function BlockInput(fbLookIt:Boolean):Integer; stdcall; external 'user32.dll';
+  { Funcao de um dll do windows }
+Function BlockInput(fbLookIt: Boolean): Integer; stdcall; external 'user32.dll';
 {$R *.dfm}
 
 procedure TForm1.tmrKeyStatusTimer(Sender: TObject);
@@ -122,7 +122,7 @@ procedure TForm1.tmr1Timer(Sender: TObject);
 var
   t: TPoint;
 begin
-  BlockInput(true);
+  BlockInput(True);
   Winapi.Windows.GetCursorPos(t);
   Pt.X := StrToInt(edtX.Text);
   Pt.Y := StrToInt(edtY.Text);
@@ -134,7 +134,6 @@ begin
   end
   else
     Mouse_Event(MOUSEEVENTF_ABSOLUTE or MouseButtonDOWN, 0, 0, 0, 0);
-  Sleep(2);
 
   if rbSetPos.Checked then
   begin
@@ -143,7 +142,6 @@ begin
   end
   else
     Mouse_Event(MOUSEEVENTF_ABSOLUTE or MouseButtonUP, 0, 0, 0, 0);
-  Sleep(2);
 
   if doubleClick then
   begin
@@ -154,7 +152,6 @@ begin
     end
     else
       Mouse_Event(MOUSEEVENTF_ABSOLUTE or MouseButtonDOWN, 0, 0, 0, 0);
-    Sleep(2);
 
     if rbSetPos.Checked then
     begin
@@ -163,9 +160,9 @@ begin
     end
     else
       Mouse_Event(MOUSEEVENTF_ABSOLUTE or MouseButtonUP, 0, 0, 0, 0);
-    Sleep(2);
   end;
-  sleep(10);
+
+  sleep(2);
 
   if repetir then
   begin
@@ -176,8 +173,8 @@ begin
       start;
     end;
   end;
+
   SetCursorPos(t.X, t.Y);
-  Sleep(5);
   BlockInput(False);
 end;
 
@@ -304,8 +301,6 @@ end;
 
 function LowLevelMouseProc(nCode: Integer; wParam: wParam; lParam: lParam)
   : LRESULT; stdcall;
-var
-  Delta: Smallint;
 begin
   if (nCode >= 0) then
   begin
@@ -315,7 +310,6 @@ begin
       Form1.edtY.Text := PMSLLHOOKSTRUCT(lParam)^.POINT.Y.ToString;
     end;
 
-    Delta := PMSLLHOOKSTRUCT(lParam)^.mouseData shr 16;
     // Form1.Caption := Format('X: %d  Y: %d ', [PMSLLHOOKSTRUCT(lParam)^.POINT.X, PMSLLHOOKSTRUCT(lParam)^.POINT.Y]);
     // Form1.Caption := Form1.Caption + ' >> ' + IntToStr(Delta);
   end;

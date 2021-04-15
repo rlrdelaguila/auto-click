@@ -184,17 +184,17 @@
     object rbRepeat: TRadioButton
       Left = 20
       Top = 25
-      Width = 59
+      Width = 60
       Height = 17
       Caption = 'Repetir:'
       TabOrder = 0
     end
     object rbRepeat2: TRadioButton
       Left = 20
-      Top = 50
-      Width = 142
+      Top = 48
+      Width = 152
       Height = 17
-      Caption = 'Repetir at'#233' mandar parar'
+      Caption = 'Repetir at'#233' segunda ordem'
       Checked = True
       TabOrder = 2
       TabStop = True
@@ -226,7 +226,7 @@
     object rbPos: TRadioButton
       Left = 20
       Top = 25
-      Width = 119
+      Width = 120
       Height = 17
       Caption = 'Acompanhar posi'#231#227'o'
       Checked = True
@@ -237,7 +237,7 @@
     object rbSetPos: TRadioButton
       Left = 233
       Top = 25
-      Width = 90
+      Width = 91
       Height = 17
       Caption = 'Definir posi'#231#227'o'
       TabOrder = 1
@@ -284,7 +284,7 @@
     object chkFormStyle: TCheckBox
       Left = 32
       Top = 22
-      Width = 94
+      Width = 95
       Height = 17
       Caption = 'Manter no topo'
       TabOrder = 0
@@ -293,7 +293,7 @@
     object chkHideForm: TCheckBox
       Left = 32
       Top = 44
-      Width = 141
+      Width = 142
       Height = 17
       Caption = 'Esconder janela ao iniciar'
       TabOrder = 1

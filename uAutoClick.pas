@@ -161,6 +161,7 @@ begin
     else
       Mouse_Event(MOUSEEVENTF_ABSOLUTE or MouseButtonUP, 0, 0, 0, 0);
   end;
+
   sleep(2);
 
   if repetir then
@@ -172,6 +173,7 @@ begin
       start;
     end;
   end;
+
   SetCursorPos(t.X, t.Y);
   BlockInput(False);
 end;
@@ -291,10 +293,10 @@ end;
 procedure TForm1.enableCFGPos(enable: Boolean);
 begin
   btnDefinirPos.Enabled := enable;
-  edtX.Enabled := enable;
-  edtY.Enabled := enable;
-  lbl4.Enabled := enable;
-  lbl5.Enabled := enable;
+  // edtX.Enabled := enable;
+  // edtY.Enabled := enable;
+  // lbl4.Enabled := enable;
+  // lbl5.Enabled := enable;
 end;
 
 function LowLevelMouseProc(nCode: Integer; wParam: wParam; lParam: lParam)

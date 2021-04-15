@@ -50,7 +50,7 @@
     end
     object cbbTypeClick: TComboBox
       Left = 120
-      Top = 45
+      Top = 47
       Width = 95
       Height = 21
       ItemIndex = 1
@@ -154,7 +154,7 @@
       Alignment = taRightJustify
       NumbersOnly = True
       TabOrder = 2
-      Text = '0'
+      Text = '2'
     end
   end
   object grpRepetirClique: TGroupBox
@@ -184,7 +184,7 @@
     object rbRepeat: TRadioButton
       Left = 20
       Top = 25
-      Width = 59
+      Width = 60
       Height = 17
       Caption = 'Repetir:'
       TabOrder = 0
@@ -192,9 +192,9 @@
     object rbRepeat2: TRadioButton
       Left = 20
       Top = 50
-      Width = 142
+      Width = 152
       Height = 17
-      Caption = 'Repetir at'#233' mandar parar'
+      Caption = 'Repetir at'#233' segunda ordem'
       Checked = True
       TabOrder = 2
       TabStop = True
@@ -223,25 +223,25 @@
       Caption = 'Y'
       Enabled = False
     end
-    object rb1: TRadioButton
+    object rbPos: TRadioButton
       Left = 20
       Top = 25
-      Width = 119
+      Width = 120
       Height = 17
       Caption = 'Acompanhar posi'#231#227'o'
       Checked = True
       TabOrder = 0
       TabStop = True
-      OnClick = rb1Click
+      OnClick = rbPosClick
     end
-    object rb2: TRadioButton
+    object rbSetPos: TRadioButton
       Left = 233
       Top = 25
-      Width = 90
+      Width = 91
       Height = 17
       Caption = 'Definir posi'#231#227'o'
       TabOrder = 1
-      OnClick = rb2Click
+      OnClick = rbSetPosClick
     end
     object btnDefinirPos: TButton
       Left = 329
@@ -279,33 +279,24 @@
     Top = 215
     Width = 265
     Height = 98
-    Caption = 'Op'#231#245'es'
+    Caption = 'Op'#231#245'es do Auto Clique'
     TabOrder = 4
-    object chk1: TCheckBox
-      Left = 32
-      Top = 22
-      Width = 91
-      Height = 17
-      Caption = 'Prender cursor'
-      Enabled = False
-      TabOrder = 0
-    end
     object chkFormStyle: TCheckBox
       Left = 32
-      Top = 44
-      Width = 94
+      Top = 22
+      Width = 95
       Height = 17
       Caption = 'Manter no topo'
-      TabOrder = 1
+      TabOrder = 0
       OnClick = chkFormStyleClick
     end
     object chkHideForm: TCheckBox
       Left = 32
-      Top = 67
-      Width = 119
+      Top = 44
+      Width = 142
       Height = 17
-      Caption = 'Esconder AutoClique'
-      TabOrder = 2
+      Caption = 'Esconder janela ao iniciar'
+      TabOrder = 1
       OnClick = chkHideFormClick
     end
   end

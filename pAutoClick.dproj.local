@@ -4,14 +4,14 @@
     <Transaction>2019/08/15 15:34:42.000.513,=C:\Users\raul.aguila\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2020/04/17 08:05:18.000.163,=C:\Users\raul.aguila\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2020/05/25 09:01:50.000.859,=C:\Users\raul.aguila\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/05/25 09:17:52.000.436,C:\Users\raul.aguila\Desktop\autoVCL\uAutoClick.pas=C:\Users\raul.aguila\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/05/25 09:17:52.000.436,C:\Users\raul.aguila\Desktop\autoVCL\uAutoClick.dfm=C:\Users\raul.aguila\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2020/05/25 09:17:57.000.016,C:\Users\raul.aguila\Desktop\autoVCL\pAutoClick.dproj=C:\Users\raul.aguila\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/05/25 09:17:52.000.436,C:\Users\raul.aguila\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\raul.aguila\Desktop\autoVCL\uAutoClick.pas</Transaction>
+    <Transaction>2020/05/25 09:17:52.000.436,C:\Users\raul.aguila\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\raul.aguila\Desktop\autoVCL\uAutoClick.dfm</Transaction>
+    <Transaction>2020/05/25 09:17:57.000.016,C:\Users\raul.aguila\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\raul.aguila\Desktop\autoVCL\pAutoClick.dproj</Transaction>
     <Transaction>2020/05/25 12:03:04.000.017,=C:\Users\raul.aguila\Desktop\autoVCL\Unit1.pas</Transaction>
-    <Transaction>2020/05/25 12:03:24.000.351,C:\Users\raul.aguila\Desktop\autoVCL\yKeyState.pas=C:\Users\raul.aguila\Desktop\autoVCL\Unit1.pas</Transaction>
+    <Transaction>2020/05/25 12:03:24.000.351,C:\Users\raul.aguila\Desktop\autoVCL\Unit1.pas=C:\Users\raul.aguila\Desktop\autoVCL\yKeyState.pas</Transaction>
     <Transaction>2020/05/25 12:05:42.000.393,C:\Users\raul.aguila\Desktop\autoVCL\yKeyState.pas=</Transaction>
     <Transaction>2020/05/27 07:28:46.000.593,=C:\Users\raul.aguila\Desktop\autoVCL\Unit1.pas</Transaction>
-    <Transaction>2020/05/27 07:28:53.000.117,C:\Users\raul.aguila\Desktop\autoVCL\uMousePoint.pas=C:\Users\raul.aguila\Desktop\autoVCL\Unit1.pas</Transaction>
+    <Transaction>2020/05/27 07:28:53.000.117,C:\Users\raul.aguila\Desktop\autoVCL\Unit1.pas=C:\Users\raul.aguila\Desktop\autoVCL\uMousePoint.pas</Transaction>
     <Transaction>2020/05/27 07:44:03.000.312,C:\Users\raul.aguila\Desktop\autoVCL\uMousePoint.pas=</Transaction>
   </Transactions>
 </BorlandProject>
